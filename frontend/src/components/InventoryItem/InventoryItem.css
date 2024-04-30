@@ -1,0 +1,64 @@
+.inventory-item{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.inventory-item-image{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.inventory-item-info{
+    padding: 20px;
+}
+
+.inventory-item-name-quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inventory-item-name-quantity p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.inventory-item-price{
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.inventory-item-container{
+    position: relative;
+}
+
+.inventory-item-container .add{
+    width: 90%;
+    position: absolute;
+    bottom: 50%;
+    right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 400%;
+}
+
+.inventory-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+}

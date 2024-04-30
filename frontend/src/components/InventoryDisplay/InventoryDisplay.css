@@ -1,0 +1,16 @@
+.inventory-display{
+    margin-top: 30px;
+}
+
+.inventory-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+
+.inventory-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    margin-top: 30px;
+    gap: 10px;
+    row-gap: 50px;
+}
